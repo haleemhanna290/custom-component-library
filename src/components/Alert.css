@@ -1,0 +1,63 @@
+.hanna-alert {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  padding: 0.95rem 1rem;
+  box-sizing: border-box;
+}
+
+.alert-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.alert-title {
+  color: inherit;
+  font-size: 0.96rem;
+}
+
+.alert-message {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.alert-success {
+  background: rgba(39, 174, 96, 0.09);
+  border-color: rgba(39, 174, 96, 0.18);
+  color: #166534;
+}
+
+.alert-info {
+  background: rgba(59, 130, 246, 0.08);
+  border-color: rgba(59, 130, 246, 0.15);
+  color: #1d4ed8;
+}
+
+.alert-warning {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.2);
+  color: #9a5b00;
+}
+
+.alert-error {
+  background: rgba(220, 38, 38, 0.09);
+  border-color: rgba(220, 38, 38, 0.15);
+  color: #991b1b;
+}
+
+.alert-close {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 1.35rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
